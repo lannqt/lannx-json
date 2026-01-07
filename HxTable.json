@@ -1,0 +1,26 @@
+{
+  "HxCode": 200,
+  "HxError": false,
+  "HxMessage": "Success",
+  "HxData": {
+    "HxItems": [
+      { "HxId": "HX-001", "HxFullName": "Hyesun Alan 1", "HxEmail": "alan1@example.com", "HxRole": "Admin", "HxLastLogin": "2026-01-07T08:00:00Z", "HxCreatedAt": "2026-01-01T08:00:00Z", "HxUpdatedAt": "2026-01-07T08:00:00Z" },
+      { "HxId": "HX-002", "HxFullName": "Hyesun Alan 2", "HxEmail": "alan2@example.com", "HxRole": "User", "HxLastLogin": "2026-01-07T08:05:00Z", "HxCreatedAt": "2026-01-01T08:05:00Z", "HxUpdatedAt": "2026-01-07T08:05:00Z" },
+      { "HxId": "HX-003", "HxFullName": "Hyesun Alan 3", "HxEmail": "alan3@example.com", "HxRole": "Admin", "HxLastLogin": "2026-01-07T08:10:00Z", "HxCreatedAt": "2026-01-01T08:10:00Z", "HxUpdatedAt": "2026-01-07T08:10:00Z" },
+      { "HxId": "HX-004", "HxFullName": "Hyesun Alan 4", "HxEmail": "alan4@example.com", "HxRole": "User", "HxLastLogin": "2026-01-07T08:15:00Z", "HxCreatedAt": "2026-01-01T08:15:00Z", "HxUpdatedAt": "2026-01-07T08:15:00Z" },
+      { "HxId": "HX-005", "HxFullName": "Hyesun Alan 5", "HxEmail": "alan5@example.com", "HxRole": "Admin", "HxLastLogin": "2026-01-07T08:20:00Z", "HxCreatedAt": "2026-01-01T08:20:00Z", "HxUpdatedAt": "2026-01-07T08:20:00Z" },
+      { "HxId": "HX-006", "HxFullName": "Hyesun Alan 6", "HxEmail": "alan6@example.com", "HxRole": "User", "HxLastLogin": "2026-01-07T08:25:00Z", "HxCreatedAt": "2026-01-01T08:25:00Z", "HxUpdatedAt": "2026-01-07T08:25:00Z" },
+      { "HxId": "HX-007", "HxFullName": "Hyesun Alan 7", "HxEmail": "alan7@example.com", "HxRole": "Admin", "HxLastLogin": "2026-01-07T08:30:00Z", "HxCreatedAt": "2026-01-01T08:30:00Z", "HxUpdatedAt": "2026-01-07T08:30:00Z" },
+      { "HxId": "HX-008", "HxFullName": "Hyesun Alan 8", "HxEmail": "alan8@example.com", "HxRole": "User", "HxLastLogin": "2026-01-07T08:35:00Z", "HxCreatedAt": "2026-01-01T08:35:00Z", "HxUpdatedAt": "2026-01-07T08:35:00Z" },
+      { "HxId": "HX-009", "HxFullName": "Hyesun Alan 9", "HxEmail": "alan9@example.com", "HxRole": "Admin", "HxLastLogin": "2026-01-07T08:40:00Z", "HxCreatedAt": "2026-01-01T08:40:00Z", "HxUpdatedAt": "2026-01-07T08:40:00Z" },
+      { "HxId": "HX-010", "HxFullName": "Hyesun Alan 10", "HxEmail": "alan10@example.com", "HxRole": "User", "HxLastLogin": "2026-01-07T08:45:00Z", "HxCreatedAt": "2026-01-01T08:45:00Z", "HxUpdatedAt": "2026-01-07T08:45:00Z" }
+    ],
+    "HxPagination": {
+      "total": 4134,
+      "count": 10,
+      "per_page": 10,
+      "current_page": 1,
+      "total_pages": 414
+    }
+  }
+}
