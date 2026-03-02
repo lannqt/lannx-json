@@ -1,0 +1,49 @@
+{
+  "HxCode": 200,
+  "HxError": false,
+  "HxMessage": "Success",
+  "HxData": {
+    "HxItems": [
+      {
+        "HxId": "HX-001",
+        "HxTitle": "Company Profile AA Pialang",
+        "HxDescription": "Profil lengkap perusahaan AA Pialang beserta layanan dan legalitas.",
+        "HxSource": null,
+        "HxPreview": "https://aapialang.co.id/",
+        "HxImg": "https://picsum.photos/id/1011/600/400",
+        "HxCreatedAt": "2026-01-01T08:00:00Z",
+        "HxUpdatedAt": "2026-01-07T08:00:00Z"
+      },
+      {
+        "HxId": "HX-002",
+        "HxTitle": "E-SPAJK BTN",
+        "HxDescription": "Panduan pengisian dan akses sistem E-SPAJK BTN secara online.",
+        "HxSource": "https://example.com/e-spajk-btn",
+        "HxPreview": "https://example.com/e-spajk-btn",
+        "HxImg": "https://picsum.photos/id/1015/600/400",
+        "HxCreatedAt": "2026-01-01T08:05:00Z",
+        "HxUpdatedAt": "2026-01-07T08:05:00Z"
+      },
+      {
+        "HxId": "HX-003",
+        "HxTitle": "Portal Pegadaian Asuransi",
+        "HxDescription": "Akses portal resmi Pegadaian untuk layanan asuransi dan klaim.",
+        "HxSource": "https://example.com/portal-pegadaian-asuransi",
+        "HxPreview": "https://example.com/portal-pegadaian-asuransi",
+        "HxImg": "https://picsum.photos/id/1020/600/400",
+        "HxCreatedAt": "2026-01-01T08:10:00Z",
+        "HxUpdatedAt": "2026-01-07T08:10:00Z"
+      },
+      {
+        "HxId": "HX-004",
+        "HxTitle": "Portal Bank Jatim Askrindo",
+        "HxDescription": "Informasi integrasi Bank Jatim dengan layanan Askrindo.",
+        "HxSource": "https://example.com/portal-bank-jatim-askrindo",
+        "HxPreview": "https://example.com/portal-bank-jatim-askrindo",
+        "HxImg": "https://picsum.photos/id/1024/600/400",
+        "HxCreatedAt": "2026-01-01T08:15:00Z",
+        "HxUpdatedAt": "2026-01-07T08:15:00Z"
+      }
+    ]
+  }
+}
