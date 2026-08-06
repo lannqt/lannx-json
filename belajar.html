@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contoh Belajar HTML & CSS</title>
+
+<style>
+  /* ===============================================
+     ALUR MIKIR CSS:
+     1. Reset dasar (biar semua browser konsisten)
+     2. Atur "kerangka besar" dulu (body, container)
+     3. Baru masuk ke tiap komponen kecil (card, tombol, dst)
+     =============================================== */
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* biar padding ga bikin lebar elemen membengkak */
+  }
+
+  body {
+    font-family: 'Segoe UI', system-ui, sans-serif;
+    background: #0f172a;
+    color: #e2e8f0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+  }
+
+  .card {
+    background: #1e293b;
+    border-radius: 16px;
+    padding: 32px;
+    max-width: 380px;
+    width: 100%;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.35);
+  }
+
+  .card__badge {
+    display: inline-block;
+    font-size: 12px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #38bdf8;
+    background: rgba(56, 189, 248, 0.12);
+    padding: 4px 10px;
+    border-radius: 999px;
+    margin-bottom: 16px;
+  }
+
+  .card__title {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 8px;
+  }
+
+  .card__desc {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #94a3b8;
+    margin-bottom: 24px;
+  }
+
+  .card__list {
+    list-style: none;
+    margin-bottom: 24px;
+  }
+
+  .card__list li {
+    font-size: 14px;
+    padding: 8px 0;
+    border-bottom: 1px solid rgba(148, 163, 184, 0.15);
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .card__list li:last-child {
+    border-bottom: none;
+  }
+
+  .card__button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    background: #38bdf8;
+    color: #0f172a;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background 0.2s ease;
+  }
+
+  .card__button:hover {
+    background: #7dd3fc;
+  }
+</style>
+</head>
+<body>
+
+  <!-- ===============================================
+       ALUR MIKIR HTML:
+       1. Bungkus semua dalam satu "card" (kontainer utama)
+       2. Isi dari atas ke bawah: badge -> judul -> deskripsi -> list -> tombol
+       3. Tiap bagian dikasih class biar gampang di-styling di CSS
+       =============================================== -->
+
+  <div class="card">
+    <span class="card__badge">Contoh Belajar</span>
+    <h1 class="card__title">Alur Bikin Halaman Web</h1>
+    <p class="card__desc">
+      Ini contoh sederhana: HTML buat struktur/isi, CSS buat tampilan.
+      Coba ubah warna, teks, atau urutan elemen di bawah ini buat latihan.
+    </p>
+
+    <ul class="card__list">
+      <li><span>1. Struktur</span><span>HTML</span></li>
+      <li><span>2. Tampilan</span><span>CSS</span></li>
+      <li><span>3. Interaksi</span><span>JavaScript</span></li>
+    </ul>
+
+    <button class="card__button" onclick="alert('Coba edit kode ini ya!')">
+      Coba Klik
+    </button>
+  </div>
+
+</body>
+</html>
+
